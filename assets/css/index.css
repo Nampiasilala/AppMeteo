@@ -1,28 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+  background-image: url("../image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   margin: 0;
   padding: 0;
-  height: 100vh; /* Permet de remplir toute la hauteur de l'écran */
-  display: flex; /* Active Flexbox */
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .weather-app {
-  margin: 0; /* Supprime le margin inutile */
-  width: 400px; /* Augmente la largeur */
-  padding: 30px; /* Augmente le padding pour agrandir */
-  background: rgba(0, 0, 0, 0.5); /* Couleur légèrement plus foncée pour le contraste */
-  border-radius: 15px; /* Bords plus arrondis */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre subtile */
-  text-align: center; /* Centre le texte à l'intérieur */
+  margin: 0;
+  width: 400px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-align: center;
 }
 
-  
   input, button {
-    width: 90%;
+    width: 70%;
     margin: 10px auto;
     padding: 10px;
     border: none;
@@ -33,6 +34,7 @@ body {
     background: #1e69de;
     color: white;
     cursor: pointer;
+    width: 90px;
   }
   
   #weather-result {
